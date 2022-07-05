@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+}
+.half-area{
+    width: 50%;
+   margin: 70px;
+}
+/* ================= header-area ================ */
+.header-area{
+    background-image: url(./images/top-banner.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.header-area .half-area h1{
+    font-size: 60px;
+}
+.header-area .half-area h2{
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+.header-area .half-area span{
+    color: orange;
+}
+.header-area .half-area p{
+    text-align: justify;
+    margin-bottom:20px;
+}
+.header-area .half-area a{
+    background: orange;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.header-area .half-area .myImg{
+    width: 100%;
+    margin-left: 5%;
+}
+/* ========================== dream-area =========================== */
+.dream-area{
+    background-image:url(./images/dream-bg.png) ;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: right;
+}
+.dream-area .half-area{
+    margin-left: 4px;
+}
+.dream-area .half-area .myImg{
+    width: 100%;
+}
+.dream-area .half-area h1{
+    font-size: 60px;
+    margin-bottom:20px;
+}
+.dream-area .half-area h2{
+    margin-bottom: 15px;
+}
+.dream-area .half-area p{
+    margin-bottom: 15px;
+}
+.dream-area .half-area a{
+    background: orange;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none
+}
+
+/* ==================== Experiences-area ================ */
+.Experiences-area{
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Experiences-area h1{
+    font-size: 40px;
+}
+.flex-part{
+    display: flex;
+    margin: 30px;
+}
+.Experiences-area .developer-area{
+    box-shadow: 5px 7px 40px grey;
+    margin: 30px;
+    width: 50%;
+    padding: 20px;
+}
+.Experiences-area .developer-area h1{
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+.Experiences-area .developer-area h3{
+    color: orange;
+    margin-bottom: 20px;
+}
+.blue{
+    border-left: 7px solid blue;
+}
+.orange{
+    border-left:7px solid orange;
+}
+footer p{
+    text-align: center;
+    margin-bottom: 10px;
+}
